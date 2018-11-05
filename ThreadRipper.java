@@ -14,7 +14,6 @@ public class ThreadRipper {
     public void rip() {
 
         Thread t1 = new Thread( this::threadOneAction );
-
         Thread t2 = new Thread( this::threadTwoAction );
 
         t1.start();
