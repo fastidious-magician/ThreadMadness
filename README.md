@@ -4,7 +4,8 @@ or more threads are acting on the same data at once.
 
 int x = 4; 
 
-new Thread(this::methodThatIncrementsX()).start(); 
+new Thread(this::methodThatIncrementsX()).start();
+ 
 new Thread(this::methodThatDecrementsX()).start(); 
 
 - Runs this 1000 times.
