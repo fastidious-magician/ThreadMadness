@@ -9,7 +9,7 @@ new Thread(this::methodThatDecrementsX()).start();
 
 - Runs this 1000 times.
 
-#Sample output: 
+# Sample output: 
 
 5
 4
