@@ -8,6 +8,7 @@ public class ThreadRipper {
     public ThreadRipper() {
 
         intList = new ArrayList<>();
+        x = 4;
     }
 
     public void rip() {
